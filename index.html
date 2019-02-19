@@ -1,17 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#6396db;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#6396db;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
 </head>
-<body style="background-color:#91c2ff;">
-  <img src="backdrop.JPG" alt="Backdrop of nature" width="1000" height="400">
+<body style="font-family:Verdana;color:#03157a;">
+
+<div style="background-color:#99ccff;padding:15px;text-align:center;">
+  <h1 style="color:#000000;">Lightning At Sea</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="Fashion.html"> Graphic Design Brochure </a>
+
+  </div>
+
+  <div class="main">
+    <h2>Sihi Nagathihalli</h2>
+    <p>I'm a 20 year old communication design student from Bangalore,  India. I'm passionate about graphic design, interior design and set design. I hope to help develop design systems for theatre spaces and improve the contemporary design scene of modern India. </p>
+  </div>
+  
   <img src="blue-nature-4.jpg" alt="Backdrop of another nature" width="600" height="400"; style="align:left;">
-  
-  
-<h1 style="color:#006699; font-family:verdana; font size:800%; text-align:center;">Lightning At Sea</h1>
-<p style="color:#006666; font-family:verdana; font-size:160%; text-align:center;">Welcome to Sihi Nagathihalli's profile.</p>
-  
-  <a href="Fashion.html"> Graphic Design Brochure </a>
+
+  <div class="right">
+    <h2>Follow me</h2>
+     <a href="#">Facebook</a>
+     <a href="#">Twitter</a>
+     <a href="#">Instagram</a>
+     <a href="#">Snapchat</a>
+     <a href="#">Behance</a>
+     <a href="#">Dribble</a>
+   
+   
+  </div>
+</div>
+
+<div style="background-color:#91c2ff;padding:10px;margin-top:7px;"></div>
 
 </body>
 </html>
