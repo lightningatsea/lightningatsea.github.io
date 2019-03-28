@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+  </script>
+  <script>
+jQuery(document).ready(function($) {  
+$(window).load(function(){
+    $('#preloader').fadeOut(5000,function(){$(this).remove();});
+});
+});
+</script>
+  <style type="text/css">
+    .js div#preloader {
+	position: fixed; 
+	left: 0; top: 0; z-index:99999;
+	width: 100%; 
+	height: 100%; 
+	overflow: visible; 
+	background:#fff url('lightningatsea.gif') no-repeat center center;
+	background-size:60px 60px;
+	}
+  </style>
+  
+    <body>
+	<div class="loader">
+    <div id="preloader"></div> <--USE-THIS-DIV-->
+    </body>
+  </div>
+</html>
